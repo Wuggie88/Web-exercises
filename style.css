@@ -1,0 +1,102 @@
+body{
+    color: white;
+    background-color: #202020;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+input{
+    margin-top: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.mainFrame{
+    position: relative;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu{
+    position: relative;
+    background-color: cadetblue;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 0px 0px 25px 25px;
+    border: 3px solid #0dbdb2;
+}
+
+.content{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.usrCNT{
+    margin-left: 50px;
+    margin-top: 10px;
+    border: 2px solid blue;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    background-color: dodgerblue;
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 2em;
+}
+.usrCNT img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    align-self: center;
+}
+.picCNT{
+    position: relative;
+    margin: 0 auto;
+    width: 1000;
+    overflow: hidden;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.profileCNT{
+    float: left;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.profilePic{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+}
+
+.picPIC{
+    width: 700px;
+    height: auto;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+.underline{
+    background-repeat: repeat-x;
+    background-image: url("files/blockquote_bg.gif");
+    
+    margin-left: 10px;
+    
+    width: 600px;
+    height: 1px;
+}
