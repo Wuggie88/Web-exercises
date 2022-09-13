@@ -23,6 +23,7 @@
                 <div class="menu">
                     <a id='picBTN' href='#'>Pictures</a>
                     <a id='usrBTN' href='#'>Users</a>
+                    <a id='signUpBTN' href='#'>Sign up</a>
                 </div>
             </div>
             <div class="content">

@@ -12,5 +12,11 @@ $(document).ready(function () {
 
         return false;
     });
+    
+    $("#signUpBTN").click(function () {
+        $(".content").load("Signup.php");
+
+        return false;
+    });
 
 });

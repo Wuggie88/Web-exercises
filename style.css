@@ -68,12 +68,15 @@ a:hover{
     overflow: hidden;
     margin-left: 25px;
     margin-right: 25px;
+    border: 2px solid green;
 }
 .profileCNT{
+    position: relative;
     float: left;
     width: 100px;
     margin-top: 15px;
     margin-left: 10px;
+    border: 2px solid red;
 }
 
 .profilePic{
