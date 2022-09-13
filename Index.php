@@ -14,7 +14,6 @@
                 exit();
             }
         ?>        
-        <script src="JS/mainjava.js" type="text/javascript"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
@@ -23,15 +22,14 @@
                 <img src="files/Tek.jpg">
                 <div class="menu">
                     <a id='picBTN' href='#'>Pictures</a>
-                    <a id='usrBTN' href='#'>Users</a> 
+                    <a id='usrBTN' href='#'>Users</a>
                 </div>
             </div>
             <div class="content">
-                <!--This is a container for -->
+                <!--This is a container for the content-->
             </div>
         </div>
         <script src="JS/mainjava.js" type="text/javascript"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </body>
 </html>
 
