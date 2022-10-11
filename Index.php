@@ -6,13 +6,6 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <?php
             include "serverlogin.php"; 
-          
-          /* change character set to utf8, så vi kan have vores æøå, kilde 
-           * http://php.net/manual/en/mysqli.set-charset.php */
-            if (!$conn->set_charset("utf8")) {
-                printf("Error loading character set utf8: %s\n", $conn->error);
-                exit();
-            }
         ?>        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
