@@ -23,7 +23,37 @@
                 <!--This is a container for the content-->
             </div>
         </div>
+        
         <script src="JS/mainjava.js" type="text/javascript"></script>
+        
+        <!--
+        <script>
+            document.querySelector("#picBTN").addEventListener('click', function(){
+                loadContent('pictures.php');
+            });
+            
+            document.querySelector("#usrBTN").addEventListener('click', function(){
+                loadContent('users.php');
+            });
+            
+            document.querySelector("#signUpBTN").addEventListener('click', function(){
+                loadContent('Signup.php');
+            });
+            
+            function loadContent(content){
+                fetch(content)
+                .then(response => response.text)
+                .then(data => document.querySelector(".content").innerHtml = data);
+            }
+            /*
+            async function loadContent(content){
+                let x = await fetch(content);
+                let y = await x.text();
+                document.getElementsById("content").innerHtml = y;
+            }
+            */
+        </script>
+        -->
     </body>
 </html>
 
