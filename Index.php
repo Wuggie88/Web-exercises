@@ -7,7 +7,6 @@
         <?php
             include "serverlogin.php"; 
         ?>        
-        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
     </head>
     <body>
         <div class="mainFrame">
@@ -24,32 +23,7 @@
             </div>
         </div>
         
-        <!--<script src="JS/mainjava.js" type="text/javascript"></script>
-        -->
-        
-        <script>
-            document.querySelector("#picBTN").addEventListener('click', function(){
-                let file =  "pictures.php";
-                loadContent(file);
-            });
-            
-            document.querySelector("#usrBTN").addEventListener('click', function(){
-                let file = "users.php";
-                loadContent(file);
-            });
-            
-            document.querySelector("#signUpBTN").addEventListener('click', function(){
-                let file = "Signup.php";
-                loadContent(file);
-            });
-            
-            function loadContent(content){
-                fetch (content)
-                    .then(response => response.text())
-                    .then(data => document.querySelector(".content").innerHTML = data);
-            }
-        </script>
-        
+        <script src="JS/mainjava.js" type="text/javascript"></script>
     </body>
 </html>
 

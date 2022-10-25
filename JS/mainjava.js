@@ -1,22 +1,20 @@
-$(document).ready(function () {
-
-    //loader pictures.php ind i den div der har content som class
-    $("#picBTN").click(function () {
-        $(".content").load("pictures.php");
-
-        return false;
-    });
-
-    $("#usrBTN").click(function () {
-        $(".content").load("users.php");
-
-        return false;
-    });
-    
-    $("#signUpBTN").click(function () {
-        $(".content").load("Signup.php");
-
-        return false;
-    });
-
+document.querySelector("#picBTN").addEventListener('click', function(){
+    let file =  "pictures.php";
+    loadContent(file);
 });
+        
+document.querySelector("#usrBTN").addEventListener('click', function(){
+    let file = "users.php";
+    loadContent(file);
+});
+        
+document.querySelector("#signUpBTN").addEventListener('click', function(){
+    let file = "Signup.php";
+    loadContent(file);
+});
+            
+function loadContent(content){
+    fetch (content)
+        .then(response => response.text())
+        .then(data => document.querySelector(".content").innerHTML = data);
+}
