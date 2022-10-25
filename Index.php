@@ -28,25 +28,17 @@
         -->
         
         <script>
-            /*let files = "pictures.php";
-            fetch (files)
-                .then(response => response.text())
-                .then(data => document.querySelector(".content").innerHTML = data);
-            */
             document.querySelector("#picBTN").addEventListener('click', function(){
-                //console.log("clicked pictures");
                 let file =  "pictures.php";
                 loadContent(file);
             });
             
             document.querySelector("#usrBTN").addEventListener('click', function(){
-                //console.log("clicked users");
                 let file = "users.php";
                 loadContent(file);
             });
             
             document.querySelector("#signUpBTN").addEventListener('click', function(){
-                //console.log("clicked sign-up");
                 let file = "Signup.php";
                 loadContent(file);
             });
@@ -56,13 +48,6 @@
                     .then(response => response.text())
                     .then(data => document.querySelector(".content").innerHTML = data);
             }
-            /*
-            async function loadContent(content){
-                let x = await fetch(content);
-                let y = await x.text();
-                document.getElementsById("content").innerHtml = y;
-            }
-            */
         </script>
         
     </body>
