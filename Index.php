@@ -34,13 +34,9 @@
                 .then(data => document.querySelector(".content").innerHTML = data);
             */
             document.querySelector("#picBTN").addEventListener('click', function(){
-                console.log("clicked pictures");
+                //console.log("clicked pictures");
                 let file =  "pictures.php";
-                fetch(file)
-                    .then(response => response.text)
-                    .then(data => document.querySelector(".content").innerHtml = data);
-                console.log("done");
-                //loadContent(file);
+                loadContent(file);
             });
             
             document.querySelector("#usrBTN").addEventListener('click', function(){
